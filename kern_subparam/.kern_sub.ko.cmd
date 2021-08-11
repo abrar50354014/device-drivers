@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_subparam/kern_sub.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device-driver/kern_subparam/kern_sub.ko /home/pi/device-driver/kern_subparam/kern_sub.o /home/pi/device-driver/kern_subparam/kern_sub.mod.o;  true

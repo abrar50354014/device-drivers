@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_modprobe/kern_sym/kern_add.mod := { echo  /home/pi/device-driver/kern_modprobe/kern_sym/kern_add.o;  echo; } > /home/pi/device-driver/kern_modprobe/kern_sym/kern_add.mod

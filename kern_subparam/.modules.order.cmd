@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_subparam/modules.order := {   echo /home/pi/device-driver/kern_subparam/kern_subperm.ko;   echo /home/pi/device-driver/kern_subparam/kern_sub.ko; :; } | awk '!x[$$0]++' - > /home/pi/device-driver/kern_subparam/modules.order

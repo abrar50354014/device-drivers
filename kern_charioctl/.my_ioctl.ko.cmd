@@ -1,0 +1,1 @@
+cmd_/home/pi/device-drivers/kern_charioctl/my_ioctl.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device-drivers/kern_charioctl/my_ioctl.ko /home/pi/device-drivers/kern_charioctl/my_ioctl.o /home/pi/device-drivers/kern_charioctl/my_ioctl.mod.o;  true

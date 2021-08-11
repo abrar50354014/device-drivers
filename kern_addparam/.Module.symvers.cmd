@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_addparam/Module.symvers := sed 's/ko$$/o/' /home/pi/device-driver/kern_addparam/modules.order | scripts/mod/modpost -m -a   -o /home/pi/device-driver/kern_addparam/Module.symvers -e -i Module.symvers   -T -

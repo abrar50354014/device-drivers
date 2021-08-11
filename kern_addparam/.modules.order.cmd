@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_addparam/modules.order := {   echo /home/pi/device-driver/kern_addparam/kern_add.ko;   echo /home/pi/device-driver/kern_addparam/kern_addperm.ko; :; } | awk '!x[$$0]++' - > /home/pi/device-driver/kern_addparam/modules.order

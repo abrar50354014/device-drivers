@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_sym/kern_avg.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device-driver/kern_sym/kern_avg.ko /home/pi/device-driver/kern_sym/kern_avg.o /home/pi/device-driver/kern_sym/kern_avg.mod.o;  true

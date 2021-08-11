@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_addparam/kern_add.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/device-driver/kern_addparam/kern_add.ko /home/pi/device-driver/kern_addparam/kern_add.o /home/pi/device-driver/kern_addparam/kern_add.mod.o;  true

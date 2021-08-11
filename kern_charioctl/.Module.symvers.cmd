@@ -1,0 +1,1 @@
+cmd_/home/pi/device-drivers/kern_charioctl/Module.symvers := sed 's/ko$$/o/' /home/pi/device-drivers/kern_charioctl/modules.order | scripts/mod/modpost -m -a   -o /home/pi/device-drivers/kern_charioctl/Module.symvers -e -i Module.symvers   -T -

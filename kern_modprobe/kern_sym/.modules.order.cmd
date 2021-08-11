@@ -1,0 +1,1 @@
+cmd_/home/pi/device-driver/kern_modprobe/kern_sym/modules.order := {   echo /home/pi/device-driver/kern_modprobe/kern_sym/kern_add.ko;   echo /home/pi/device-driver/kern_modprobe/kern_sym/kern_avg.ko; :; } | awk '!x[$$0]++' - > /home/pi/device-driver/kern_modprobe/kern_sym/modules.order
